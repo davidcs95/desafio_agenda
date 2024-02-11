@@ -14,13 +14,13 @@ while True:
     if escolha == "1":
         adicionar_contato(contatos)
     elif escolha == "2":
-        pass
+        visualizar_contatos(contatos)
     elif escolha == "3":
-        pass
+        marcar_desmarcar_favorito(contatos)
     elif escolha == "4":
-        pass
+        visualizar_favoritos(contatos)
     elif escolha == "5":
-        pass
+        apagar_contato(contatos)
     elif escolha == "6":
         break
 
